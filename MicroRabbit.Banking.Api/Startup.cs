@@ -62,7 +62,7 @@ namespace MicroRabbit.Banking.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swager/v1/swagger.json", "Banking MicroService V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banking MicroService V1");
             });
 
             app.UseEndpoints(endpoints =>
