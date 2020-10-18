@@ -84,7 +84,7 @@ namespace MicroRabbit.Infra.Bus
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
 
-            var eventName = typeof(T).Namespace;
+            var eventName = typeof(T).Name;
 
             channel.QueueDeclare(eventName, false, false, false, null);
 
