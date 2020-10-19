@@ -5,6 +5,10 @@ Unable to create an object of type 'TransferDbContext'. For the different patter
 
 ÇÖZÜM => Api projesine Microsoft.EntityFrameworkCore.Design ve Microsoft.EntityFrameworkCore.Tools paketlerini kur,
 
+Sorun devam ederse IoC içinde Account ile ilgili servisleri vs yorum satırına al sonra komutu tekrar çalıştır.
+
 Database => Update-Database -Context TransferDbContext
+
+Yorum satırına alınanları tekrar açabiliriz.
 
 
