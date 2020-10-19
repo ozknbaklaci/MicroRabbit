@@ -29,7 +29,7 @@ namespace MicroRabbit.Transfer.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("FromAccount")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("int");
 
                     b.Property<decimal>("ToAccount")
                         .HasColumnType("decimal(18,2)");
