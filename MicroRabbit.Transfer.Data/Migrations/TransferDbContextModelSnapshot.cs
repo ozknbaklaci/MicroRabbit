@@ -32,7 +32,7 @@ namespace MicroRabbit.Transfer.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("ToAccount")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
